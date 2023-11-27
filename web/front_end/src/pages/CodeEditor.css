@@ -1,0 +1,22 @@
+.main-container {
+    margin-left: 20px;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.editor-container {
+    height: 800px;
+    margin: 20px auto;
+    width: 65vw;
+
+}
+
+.compile-result {
+    margin: 20px;
+    padding: 10px;
+    height: 800px;
+    width: 30vw;
+    background-color: black;
+    color: white;
+}
