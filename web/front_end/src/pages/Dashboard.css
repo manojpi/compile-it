@@ -1,0 +1,12 @@
+.dashboard{
+    background: url('../project_assets/compile-it.svg');
+    height: 60vh;
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.container-height {
+    height: 100vh;
+}

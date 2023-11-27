@@ -1,0 +1,10 @@
+
+.home-page-img{
+    background: url('../project_assets/code.svg');
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    border-radius: 10%;
+}

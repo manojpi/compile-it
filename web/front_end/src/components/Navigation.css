@@ -1,0 +1,42 @@
+
+.search-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .search-wrapper i {
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .search-wrapper input {
+    height: 100%;
+    padding: .5rem;
+    border: none;
+    outline: none;
+  }
+
+  
+  .user-wrapper i {
+    margin-right: 0.7rem;
+    font-size: 40px;
+  }
+  
+  .user-wrapper h7 {
+    display: inline-block;
+    color: #8E9AAA;
+  }
+
+
+  .fa-table-columns{
+    font-size: 35px;
+  }
+
+  .fa-layer-group {
+    font-size: 25px;
+  }
