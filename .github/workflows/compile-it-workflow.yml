@@ -1,0 +1,29 @@
+name: compile-it workflow
+
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Set up NodeJS
+              uses: actions/setup-node@v4
+              with:
+                node-version: '17'
+            
+            - name: Install Node dependencies
+              run: |
+                cd web/front_end
+                npm install
+                cd ../back_end
+                npm install
+            
+            - name: Test Print
+              run: echo "Finished"
