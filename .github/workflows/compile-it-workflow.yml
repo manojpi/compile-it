@@ -13,6 +13,9 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
+            - name: Check out the Repo
+              uses: actions/checkout@v2
+              
             - name: Set up NodeJS
               uses: actions/setup-node@v4
               with:
